@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+/* import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import Categoria from '../../../models/Categoria'
 import { buscar } from '../../../services/Service';
@@ -17,4 +17,4 @@ async function buscarCategoria(){
 
 
 
-export default FormCategoria
+export default FormCategoria */

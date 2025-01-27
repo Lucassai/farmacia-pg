@@ -1,4 +1,4 @@
-import axios from "axios";
+/* import axios from "axios";
 
 const api = axios.create({
   baseURL: import.meta.env.VITE_API_URL,
@@ -15,8 +15,8 @@ export const cadastrar = async (
   url: string,
   dados: Object,
   setDados: Function,
-  header: Object
 ) => {
+    header: Object
   const resposta = await api.post(url, dados, header);
   setDados(resposta.data);
 };
@@ -34,3 +34,4 @@ export const atualizar = async (
 export const deletar = async (url: string, header: Object) => {
   await api.delete(url, header);
 };
+ */
