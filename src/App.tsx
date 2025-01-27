@@ -3,6 +3,7 @@ import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
 import Home from "./pages/home/Home";
 import ListarCategorias from "./components/categoria/listacategoria/ListaCategoria";
+import FormCategoria from "./components/categoria/formcategoria/FormCategoria";
 
 function App() {
   return (
@@ -13,9 +14,10 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/categoria" element={<ListarCategorias />} />
+            <Route path="/cadastrar" element={<FormCategoria />} />
           </Routes>
-          <Footer />
         </div>
+        <Footer />
       </BrowserRouter>
     </>
   );

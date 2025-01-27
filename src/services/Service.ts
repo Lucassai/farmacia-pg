@@ -27,9 +27,8 @@ export const atualizar = async (
   url: string,
   dados: Object,
   setDados: Function,
-  header: Object
 ) => {
-  const resposta = await api.put(url, dados, header);
+  const resposta = await api.put(url, dados);
   setDados(resposta.data);
 };
 
